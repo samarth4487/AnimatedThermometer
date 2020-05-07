@@ -72,7 +72,7 @@ class ThermometerView: UIView {
         
         maskLayer.path = bodyLayer.path
         maskLayer.strokeColor = bodyLayer.strokeColor
-        maskLayer.lineWidth = bodyLayer.lineWidth
+        maskLayer.lineWidth = bodyLayer.lineWidth - 4
         maskLayer.lineCap = bodyLayer.lineCap
         maskLayer.fillColor = nil
         
