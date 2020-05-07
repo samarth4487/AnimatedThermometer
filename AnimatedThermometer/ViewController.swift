@@ -12,7 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let thermoView = ThermometerView(frame: CGRect(x: view.frame.width/2 - 50, y: view.frame.height/2 - 150, width: 100, height: 300))
+        view.addSubview(thermoView)
     }
 
 

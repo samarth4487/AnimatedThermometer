@@ -13,6 +13,7 @@
 		10B66B9D2463368700CC69B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B66B9B2463368700CC69B9 /* Main.storyboard */; };
 		10B66B9F2463368800CC69B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B66B9E2463368800CC69B9 /* Assets.xcassets */; };
 		10B66BA22463368800CC69B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B66BA02463368800CC69B9 /* LaunchScreen.storyboard */; };
+		10B66BAA246336FD00CC69B9 /* ThermometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B66BA9246336FD00CC69B9 /* ThermometerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		10B66B9E2463368800CC69B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10B66BA12463368800CC69B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10B66BA32463368800CC69B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10B66BA9246336FD00CC69B9 /* ThermometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				10B66B9E2463368800CC69B9 /* Assets.xcassets */,
 				10B66BA02463368800CC69B9 /* LaunchScreen.storyboard */,
 				10B66BA32463368800CC69B9 /* Info.plist */,
+				10B66BA9246336FD00CC69B9 /* ThermometerView.swift */,
 			);
 			path = AnimatedThermometer;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				10B66B9A2463368700CC69B9 /* ViewController.swift in Sources */,
 				10B66B962463368700CC69B9 /* AppDelegate.swift in Sources */,
 				10B66B982463368700CC69B9 /* SceneDelegate.swift in Sources */,
+				10B66BAA246336FD00CC69B9 /* ThermometerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
